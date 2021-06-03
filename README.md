@@ -17,13 +17,13 @@
   Class of 2020
 
 ### ***Relevant Coursework:***
-    #### **Natural Language Processing with Deep Learning**
-          ***Languages:***
+   #### * Class: Natural Language Processing with Deep Learning**
+   **Languages:**
                 - Python
           ***Technologies:***
                 - Google Cloud
                 - Google Colaboratory
-    Applied Machine Learning
+       #### **Class: Applied Machine Learning
           ***Languages:***
                 - Python
           ***Technologies:***
