@@ -7,15 +7,25 @@
 &emsp;&emsp; ***Linkedin:*** www.linkedin.com/in/jacob-sycoff
 
 ### ***Education:***
-  Master of Information and Data Science 
-  Expected Graduation: Summer 2021
-  Univeristy of California, Berkeley
 
-  Bachelor of Arts 
-  Major: Global Studies 
-  Focus: Middle East and Arabic
-  Graduation Date: Fall 2019
-  Class of 2020
+   Master of Information and Data Science
+   
+   Expected Graduation: Summer 2021 
+   
+   Univeristy of California, Berkeley 
+
+<br/>
+
+  Bachelor of Arts
+
+   Major: Global Studies 
+   
+   Focus: Middle East and Arabic
+   
+   Graduation Date: Fall 2019
+   
+   Class of 2020
+
 
 ### ***Relevant Coursework:***
 <p/>
