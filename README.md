@@ -22,58 +22,65 @@
 
    * **Natural Language Processing with Deep Learning**
       * *Language:* Python
-      * *Technologies:* Google Cloud, Google Colaboratory, Jupyter
+      * *Packages:* Tensorflow/keras, scikit-learn, Pandas, NumPy, Matplotlib
+      * *Technologies:* Google Cloud, Google Colaboratory, Jupyter, Github, Linux Command Line/Bash Terminal
 
 <p/>
 
    * ***Applied Machine Learning:***
       * *Language:* Python
-      * *Technologies:* Google Cloud, Google Colaboratory, Jupyter, GitHub
+      * *Packages:* Tensorflow/keras, scikit-learn, Pandas, NumPy, Matplotlib
+      * *Technologies:* Google Cloud, Google Colaboratory, Jupyter, GitHub, Linux Command Line/Bash Terminal
 
 <p/>
 
    * ***Statistics for Data Science:***
       * *Language:* R
+      * *Packages:* dplyr, ggplot2, tidyr, lmtest
       * *Technologies:* RStudio, Github
 <p/>
 
    * ***Experiments and Causal Inference:***
-      * *Language:* Python
-      * *Technologies:* Google Cloud, Google Colaboratory
+      * *Languages:* R, Python
+      * *Packages:* 
+        * *R:* dplyr, ggplot2, tidyr, lmtest, data.table   
+        * *Python:* Pandas, NumPy, MatplotLib, Altair
+      * *Technologies:* RStudio, Google Colaboratory, Github, Qualtrics
 <p/>
 
    * ***Data Visualization:***
-      * *Language:* Python
-      * *Technologies:* Google Cloud, Google Colaboratory
+      * *Languages:* Python, JavaScript, HTML, CSS
+      * *Packages:* 
+        * *JavaScript:* Vega-Lite
+        * *Python:* Altair, Matplotlib, Pandas
+      * *Technologies:* Tableau, Observable Notebooks, Google Colaboratory, Flask, etc
 
 <p/>
 
    * ***Behind the Data: Humans and Values:***
-      * *Language:* Python
-      * *Technologies:* Google Cloud, Google Colaboratory
 
 <p/>
 
    * ***Capstone:***
       * *Language:* Python
-      * *Technologies:* Google Cloud, Google Colaboratory
+      * *Packages:* 
+      * *Technologies:* Google Cloud, Amazon Web Services, Google Colaboratory, Github, etc
 
 <p/>
 
    * ***Research Design and Applications for Data and Analysis:***
-      * *Language:* Python
-      * *Technologies:* Google Cloud, Google Colaboratory
 
 <p/>
 
    * ***Fundamentals of Data Engineering:***  
-      * *Language:* Python
-      * *Technologies:* Google Cloud, Google Colaboratory
+      * *Languagse:* Python, SQL
+      * *Packages:* 
+      * *Technologies:* Google Cloud, Google BigQuery, Google Colaboratory, Jupyter, Flask, PySpark, Git, Docker Containers, Linux Command Line/Bash Terminal, HDFS(Parquet, Presto, Spark, Hive, Kafka)
 
 <p/>
 
    * ***Introduction to Data Science:***
       * *Language:* Python
-      * *Technologies:* Google Cloud, Google Colaboratory
+      * *Packages:* datascience
+      * *Technologies:* jupyter, linux, Git, Linux Command Line/Bash Terminal
 <p/>
-
