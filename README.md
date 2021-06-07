@@ -1,3 +1,4 @@
+# ***Note: This repo is a work in progress and does not currently contain most projects. It is in the process of being updated.***
 # **Jacob Sycoff**
 # **Data Science Portfolio** 
 
@@ -8,23 +9,18 @@
 
 ### ***Education:***
 
-   Master of Information and Data Science
-   
-   Expected Graduation: Summer 2021 
-   
-   Univeristy of California, Berkeley 
+   &emsp;&emsp; ***Master of Information and Data Science <br>
+   &emsp;&emsp; Univeristy of California, Berkeley*** <br>
+   &emsp;&emsp; *Expected Graduation:* Summer 2021 <br>
 
 <br/>
 
-  Bachelor of Arts
-
-   Major: Global Studies 
-   
-   Focus: Middle East and Arabic
-   
-   Graduation Date: Fall 2019
-   
-   Class of 2020
+   &emsp;&emsp; ***Bachelor of Arts <br>
+   &emsp;&emsp; Univeristy of California, Berkeley*** <br>
+   &emsp;&emsp; *Major:* Global Studies <br>
+   &emsp;&emsp; *Focus:* Middle East and Arabic <br>
+   &emsp;&emsp; *Graduation Date:* Fall 2019 <br>
+   &emsp;&emsp; Class of 2020 <br>
 
 
 ### ***Relevant Coursework:***
