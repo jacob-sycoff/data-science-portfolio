@@ -1,0 +1,920 @@
+    1  ls -la
+    2  ls
+    3  docker pull midsw205/base
+    4  mkdir ~/w205
+    5  docker run -it --rm -v ~/w205:/w205 midsw205/base:latest bash
+    6  cd ~/w205
+    7  ls -l
+    8  git clone https://github.com/mids-w205-crook/course-content.git
+    9  ls -lk
+   10  ls -l
+   11  cd course-content/
+   12  ls
+   13  ls -l
+   14  02-Working-with-Data/
+   15  cd 02-Working-with-Data/
+   16  ls
+   17  open async-videos.md 
+   18  xdg-open async-videos.md 
+   19  sudo apt xdg
+   20  sudo apt xdg-open
+   21  cd ~
+   22  cd /w205
+   23  ls
+   24  cd w205
+   25  pwd
+   26  ls -l
+   27  git clone https://github.com/mids-w205-crook/signup-jacob-sycoff.git
+   28  ls -l
+   29  cd
+   30  cd w205
+   31  ls
+   32  cd signup-jacob-sycoff/
+   33  git status
+   34  git branch assignment
+   35  git status
+   36  git checkout assignment
+   37  git status
+   38  vi README.md 
+   39  VI README.MD
+   40  vi README.md 
+   41  nano README.md 
+   42  vi README.md 
+   43  git status
+   44  git add README.md 
+   45  git status
+   46  git commit -m"i made a random edit"
+   47  git config --global user.email "jsycoff@berkeley.edu"
+   48  git config --global user.name "Jacob Sycoff"
+   49  git commit -m"i made a random edit"
+   50  git status
+   51  git push origin assignment
+   52  ls
+   53  cd tutorials\
+   54  ls
+   55  cd ai-platform
+   56  ls
+   57  xdg-open ai-explanations-image.ipynb
+   58  open ai-explanations-image.ipynb 
+   59  ai-explanations-image.ipynb
+   60  cd ai-explanations-image.ipynb
+   61  xldg-open
+   62  xdlg-open
+   63  cd ~
+   64  pwd
+   65  clear
+   66  ipython
+   67  jupyter notebook
+   68  ls -la
+   69  cd w205
+   70  ls -la
+   71  git clone https://github.com/mids-w205-crook/project-1-jacob-sycoff.git
+   72  ls -la
+   73  cd project-1-jacob-sycoff
+   74  ls -la
+   75  open example.ipynb
+   76  clear
+   77  docker pull midsw205/base
+   78  ls -la
+   79  pwd
+   80  cd ..
+   81  curl -L -o annot_fpid.json https://goo.gl/qWiu7d
+   82  curl -L -o lp_data.csv https://goo.gl/FDFPYB
+   83  jq
+   84  head lp_data.csv
+   85  tail lp_data.csv
+   86  head -n1 lp_data.csv
+   87  cat lp_data.csv | wc -l
+   88  clear
+   89  clear
+   90  ls -la
+   91  un docker run -it --rm -v ~/w205:/w205 midsw205/base:latest bas
+   92  docker run -it --rm -v ~/w205:/w205 midsw205/base:latest bash
+   93  pwd
+   94  cd ~w205
+   95  cd ~/w205
+   96  ls -la
+   97  cat lp_data.csv | wc -l
+   98  cat lp_data.csv | sort
+   99  man sort
+  100  cat lp_data.csv | sort -g
+  101  cat lp_data.csv | sort -n
+  102  head annot_fpid.json
+  103  cat annot_fpid.json | jq .
+  104  cat annot_fpid.json | jq '.[][]'
+  105  cat annot_fpid.json | jq '.[][]' -r
+  106  cat annot_fpid.json | jq '.[][]' -r | sort 
+  107  cat annot_fpid.json | jq '.[][]' -r | sort | uniq 
+  108  cat annot_fpid.json | jq '.[][]' -r | sort | uniq -c 
+  109  cat annot_fpid.json | jq '.[][]' -r | sort | uniq -c | sort -g
+  110  cat annot_fpid.json | jq '.[][]' -r | sort | uniq -c | sort -gr
+  111  cat annot_fpid.json | jq '.[][]' -r | sort | uniq -c | sort -gr | head -10
+  112  bq
+  113  bq query --use_legacy_sql=false 'SELECT count(*) FROM `bigquery-public-data.san_francisco.bikeshare_status`'
+  114  bq query --use_legacy_sql=false 'SELECT count(distinct station_id) FROM `bigquery-public-data.san_francisco.bikeshare_status`'
+  115  pwd
+  116  ls
+  117  cd w205
+  118  ls
+  119  cd project-1-jacob-sycoff
+  120  ls
+  121  open example.ipynb
+  122  jupyter open example.ipynb
+  123  git pull project-1-jacob-sycoff
+  124  cd ..
+  125  git pull project-1-jacob-sycoff
+  126  cd ..
+  127  ls
+  128  git pull w205
+  129  git status
+  130  cd w205
+  131  git status
+  132  cd project-1-jacob-sycoff
+  133  git status
+  134  git pull
+  135  ls
+  136  xdg-open readme.md
+  137  open d
+  138  README.md
+  139  vi README.md
+  140  ls
+  141  cd w205
+  142  ls -la
+  143  cd signup-jacob-sycoff
+  144  ls -la
+  145  git branch assignment
+  146  git checkout assignment
+  147  ls
+  148  ls -la
+  149  git add project-1-jacob-sycoff.ipynb
+  150  cd w203
+  151  la
+  152  ls -la
+  153  cd w205
+  154  cd project-1-jacob-sycoff/
+  155  ls -la
+  156  git add project-1-jacob-sycoff
+  157  git add project-1-jacob-sycoff.ipynb 
+  158  git commit -m "I created this file and am adding it to github. I will commit it often"
+  159  git push origin assignment
+  160  checkout assignment
+  161  git checkout assignment
+  162  git status
+  163  cd ..
+  164  get checkout assignment
+  165  git checkout assignment
+  166  ls -la
+  167  cd project-1-jacob-sycoff/
+  168  git checkout assignment
+  169  git branch assignment
+  170  git checkout assignment
+  171  git add project-1-jacob-sycoff.ipynb 
+  172  git commit -m "Trying this again. Hopefully this works and will be my first commit. Commit often!"
+  173  git add project-1-jacob-sycoff.ipynb 
+  174  git commit -m "Trying this again. Hopefully this works and will be my first commit. Commit often!"
+  175  git status
+  176  git push origin assignment
+  177  git add project-1-jacob-sycoff.ipynb 
+  178  git commit -m "I did questions 1 and 2 of part 1"
+  179  git push origin assignment
+  180  docker ps
+  181  docker images
+  182  docker ps -a
+  183  docker rm -f reverent driscoll
+  184  docker rm -f reverent_driscoll
+  185  docker run -it --rm -v ~/w205:/w205 midsw205/base pwd
+  186  docker ps -a
+  187  docker ps
+  188  docker run -it --rm -v ~/w205:/w205 midsw205/base:latest bash
+  189  docker run -it -v ~/w205:/w205 midsw205/base:latest bash
+  190  docker network -ls
+  191  docker network ls
+  192  docker network prune
+  193  docker pull midsw205/base:latest
+  194  docker pull midsw205/base:0.1.8
+  195  docker pull midsw205/base:0.1.9
+  196  docker pull redis
+  197  docker pull confluentinc/cp-zookeeper:latest
+  198  docker pull confluentinc/cp-kafka:latest
+  199  docker pull midsw205/spark-python:0.0.5
+  200  docker pull midsw205/spark-python:0.0.6
+  201  docker pull midsw205/cdh-minimal:latest
+  202  docker pull midsw205/hadoop:0.0.2
+  203  docker pull midsw205/presto:0.0.1
+  204  pwd
+  205  cd w205
+  206  ls
+  207  cd project-1-jacob-sycoff/
+  208  ls
+  209  git add project-1-jacob-sycoff.ipynb 
+  210  git commit -m " finished part one of the project"
+  211  git status
+  212  git origin assignment
+  213  git push origin assignment
+  214  git add project-1-jacob-sycoff.ipynb 
+  215  git commit -m "Missed a part in section 1 - will be done soon"
+  216  git push origin assignment
+  217  git add project-1-jacob-sycoff.ipynb 
+  218  git commit -m "Section one of project 1 actually finished now"
+  219  git push origin assignment
+  220  cd ..
+  221  clear
+  222  bq query --use_legacy_sql=false 'SELECT
+  223  bq query --use_legacy_sql=false '
+  224  select count(*)
+  225  FROM bike_trip_data.bikeshare_tri[s
+  226  bq query --use_legacy_sql=false '
+  227  select count(*)
+  228  FROM bike_trip_data.bikeshare_trips'
+  229  bq query --use_legacy_sql=false '
+  230  SELECT COUNT(*)
+  231  FROM bike_trip_data.bikeshare_trips'
+  232  docker run -it --rm -v ~/w205:/w205 midsw205/base:latest bash
+  233  docker ps
+  234  docker ps -a
+  235  docker ps
+  236  docker ps -a
+  237  docker psd
+  238  docker ps
+  239  docker ps -a
+  240  docker ps
+  241  docker ps -a
+  242  docker rm -f beautiful_kalen
+  243  dcoker ps -f beautiful_kalam
+  244  docker rm -f beautiful_kalam
+  245  docker ps -a
+  246  man docker rm
+  247  docker ps -a
+  248  docker images
+  249  docker run -it --rm -v ~/w205:/w205 midsw205/base pwd
+  250  ls -la
+  251  cd w205
+  252  ls -la
+  253  cd project-1-jacob-sycoff/
+  254  ls
+  255  git add project-1-jacob-sycoff.ipynb 
+  256  git commit -m "For part 1 of the project, I reformatted the aql to make it look nice"
+  257  git push origin assignment
+  258  ls
+  259  ls -la
+  260  cd w205
+  261  ls -la
+  262  project-1-jacob-sycoff/
+  263  cd project-1-jacob-sycoff/
+  264  ls -la
+  265  git checkout assignment
+  266  bq query --use_legacy_sql=false'
+  267          SELECT COUNT(*)
+  268          FROM `bike_trip_data.bikeshare_trips` '
+  269  bq query --use_legacy_sql=false'
+  270  >         SELECT COUNT(*)
+  271  >         FROM `bike_trip_data.bikeshare_trips` '
+  272  bq query --use_legacy_sql=false '
+  273  >         SELECT COUNT(*)
+  274  >         FROM `bike_trip_data.bikeshare_trips` '
+  275  bq query --use_legacy_sql=false '
+  276  SELECT COUNT(*)
+  277  FROM `bike_trip_data.bikeshare_trips` '
+  278  bq query --use_legacy_sql=false '
+  279  SELECT MIN(start_date), MAX(end_date)
+  280  FROM `bike_trip_data.bikeshare_trips`; '
+  281  bq query --use_legacy_sql=false '
+  282  SELECT SUM(total_bikes)
+  283  FROM (SELECT DISTINCT station_id, total_bikes
+  284  FROM (SELECT station_id, docks_available, bikes_available, time as date,
+  285  (docks_available + bikes_available) as total_bikes
+  286  FROM `bike_trip_data.bikeshare_status`
+  287  WHERE DATE(time) = '2016-08-31') AS bikes_on_date) AS distinct_station_bikes_on_date; '
+  288  bq query --use_legacy_sql=false "
+  289   SELECT SUM(total_bikes)
+  290  >         FROM (SELECT DISTINCT station_id, total_bikes
+  291  >               FROM (SELECT station_id, docks_available, bikes_available, time as date, 
+  292  >                       (docks_available + bikes_available) as total_bikes
+  293  >                     FROM `bike_trip_data.bikeshare_status`
+  294  >                     WHERE DATE(time) = '2016-08-31') AS bikes_on_date) AS distinct_station_bikes_on_date; "
+  295  bq query --use_legacy_sql=false "
+  296          SELECT SUM(total_bikes)
+  297          FROM (SELECT DISTINCT station_id, total_bikes
+  298                FROM (SELECT station_id, docks_available, bikes_available, time as date, 
+  299                        (docks_available + bikes_available) as total_bikes
+  300                      FROM `bike_trip_data.bikeshare_status`
+  301                      WHERE DATE(time) = '2016-08-31') AS bikes_on_date) AS distinct_station_bikes_on_date; "
+  302  bq query --use_legacy_sql=false '
+  303  SELECT SUM(total_bikes)
+  304  FROM (SELECT DISTINCT station_id, total_bikes
+  305  FROM (SELECT station_id, docks_available, bikes_available, time as date,
+  306  (docks_available + bikes_available) as total_bikes
+  307  FROM `bike_trip_data.bikeshare_status`
+  308  WHERE DATE(time) = '2016-08-31') AS bikes_on_date) AS distinct_station_bikes_on_date; '
+  309  ls -la
+  310  cd w205
+  311  ls
+  312  cd project-1-jacob-sycoff/
+  313  git add project-1-jacob-sycoff.ipynb 
+  314  git commit -m "Working on part two, the fourth question"
+  315  git push origin assignment
+  316  bq query --use_legacy_sql=false '
+  317  > SELECT *
+  318  > FROM (SELECT COUNT(*)
+  319  >       FROM bike_trip_data.bikeshare_trips
+  320  >       WHERE TIME(start_date) < '12:00:00')
+  321  >       AS num_morning '
+  322  bq query --use_legacy_sql=false '
+  323  SELECT *
+  324  FROM (SELECT COUNT(*)
+  325  FROM bike_trip_data.bikeshare_trips
+  326  WHERE TIME(start_date) < "12:00:00")
+  327  AS num_morning '
+  328  bq query --use_lagacy_sql=false '
+  329          SELECT SUM(total_bikes)
+  330          FROM (SELECT DISTINCT station_id, total_bikes
+  331                FROM (SELECT station_id, docks_available, bikes_available, time as date, 
+  332                        (docks_available + bikes_available) as total_bikes
+  333                      FROM `bike_trip_data.bikeshare_status`
+  334                      WHERE DATE(time) = "2016-08-31") AS bikes_on_date) AS distinct_station_bikes_on_date;
+  335  '
+  336  bq query --use_legacy_sql=false '
+  337          SELECT SUM(total_bikes)
+  338          FROM (SELECT DISTINCT station_id, total_bikes
+  339                FROM (SELECT station_id, docks_available, bikes_available, time as date, 
+  340                        (docks_available + bikes_available) as total_bikes
+  341                      FROM `bike_trip_data.bikeshare_status`
+  342                      WHERE DATE(time) = "2016-08-31") AS bikes_on_date) AS distinct_station_bikes_on_date; '
+  343  git add project-1-jacob-sycoff.ipynb 
+  344  git commit -m  " finished with first 4 questions of part 2"
+  345  git push origin assignment
+  346  sudo chown -R jupyter:jupyter ~/w205
+  347  cd ~/w205/course-content
+  348  git pull --all
+  349  cd
+  350  docker ps -a
+  351  docker network ls
+  352  docker pull midsw205/base:latest
+  353  docker pull midsw205/base:0.1.8
+  354  docker pull midsw205/base:0.1.9
+  355  docker pull redis
+  356  docker pull confluentinc/cp-zookeeper:latest
+  357  docker pull confluentinc/cp-kafka:latest
+  358  docker pull midsw205/spark-python:0.0.5
+  359  docker pull midsw205/spark-python:0.0.6
+  360  docker pull midsw205/cdh-minimal:latest
+  361  docker pull midsw205/hadoop:0.0.2
+  362  docker pull midsw205/presto:0.0.1
+  363  ls
+  364  clear
+  365  mkdir ~/w205/kafka
+  366  cd ~/w205/kafka
+  367  cp ~/w205/course-content/06-Transforming-Data/docker-compose.yml ~/w205/kafka/
+  368  docker-compose up -d
+  369  docker-compose ps
+  370  docker-compose logs zookeeper | grep -i binding
+  371  docker-compose logs kafka | grep -i started
+  372  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  373  ls
+  374  docker ps -a
+  375  docker-compose ps
+  376  docker-compose exec kafka kafka-topics --describe --topic foo --zookeeper zookeeper:32181
+  377  docker-compose exec kafka bash -c "seq 42 | kafka-console-producer --request-required-acks 1 --broker-list localhost:29092 --topic foo && echo 'Produced 42 messages.'"
+  378  docker-compose exec kafka kafka-console-consumer --bootstrap-server localhost:29092 --topic foo --from-beginning --max-messages 42
+  379  docker-compose down
+  380  docker-compose ps
+  381  docker ps -a
+  382  curl -L -o github-example-large.json https://goo.gl/Y4MD58
+  383  docker-compose up -d
+  384  docker-compose logs -f kafka
+  385  docker-compose down
+  386  docker-compose ps
+  387  docker ps -a
+  388  docker compuse up -d
+  389  curl -L -o github-example-large.json https://goo.gl/Y4MD58
+  390  docker-compose up -d
+  391  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  392  docker-compose exec kafka kafka-topics --describe --topic foo --zookeeper zookeeper:32181
+  393  docker-compose exec mids bash -c "cat /w205/kafka/github-example-large.json"
+  394  docker-compose exec mids bash -c "cat /w205/kafka/github-example-large.json | jq '.'"
+  395  docker-compose exec mids bash -c "cat /w205/kafka/github-example-large.json | jq '.[]' -c"
+  396  docker-compose exec mids bash -c "cat /w205/kafka/github-example-large.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t foo && echo 'Produced 100 messages.'"
+  397  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t foo -o beginning -e"
+  398  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t foo -o beginning -e" | wc -l
+  399  docker-compose down
+  400  docker-compose ls
+  401  docker-compose ps
+  402  docker ps -a
+  403  cd
+  404  ls
+  405  cd w205
+  406  ls
+  407  git clone https://github.com/mids-w205-crook/project-2-jacob-sycoff.git
+  408  ls
+  409  cd project-2-jacob-sycoff/
+  410  ls
+  411  git branch assignment
+  412  git checkout assignment
+  413  git status
+  414  ls
+  415  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/ME6hjp
+  416  ls -lh
+  417  ls -la
+  418  ls -lh
+  419  cat assessment-attempts-20180128-121051-nested.json 
+  420  ls -lh
+  421  docker compose down
+  422  docker-compose down
+  423  docker-compose ps
+  424  ls
+  425  clear
+  426  ls
+  427  cd w205/kafka
+  428  ls
+  429  docker-compose logs -f kafka
+  430  cd 
+  431  cd w205
+  432  clear
+  433  bq query --use_legacy_sql=false '
+  434  SELECT morning_trips/total_days as avg_morning_trips_per_day, afternoon_trips/total_days as avg_afternoon_trips_per_day
+  435  FROM (SELECT COUNT(*) as morning_trips
+  436        FROM bike_trip_data.bikeshare_trips
+  437        WHERE (TIME(start_date) < "12:00:00")),
+  438        
+  439        (SELECT COUNT(*) as afternoon_trips
+  440        FROM bike_trip_data.bikeshare_trips
+  441        WHERE (TIME(start_date) >= "12:00:00")),      
+  442        
+  443        (SELECT COUNT(*) AS total_days
+  444         FROM (SELECT DISTINCT DATE(start_date)
+  445               FROM bike_trip_data.bikeshare_trips))
+  446         
+  447  '
+  448  ls
+  449  cd project-1-jacob-sycoff/
+  450  git add project-1-jacob-sycoff.ipynb 
+  451  git commit -m "done with part 1 of section 2"
+  452  git push origin assignment
+  453  ls
+  454  cd w205
+  455  cd project-1-jacob-sycoff/
+  456  git add project-1-jacob-sycoff.ipynb 
+  457  git commit -m "Working on last questions of section 2"
+  458  git push origin assignment
+  459  bq query --use_legacy_sql=false '
+  460              SELECT start_station_name, COUNT(start_station_name) as num_trips_begun_here_in_2015
+  461              FROM (SELECT *
+  462                    FROM bike_trip_data.better_trips
+  463                    WHERE (year = 2015))
+  464              GROUP BY start_station_name
+  465              ORDER BY num_trips_begun_here_in_2015 DESC
+  466              LIMIT 10; '
+  467  bq query --use_legacy_sql=false '
+  468  +-----------------------------------------------+------------------------------+
+  469  |              start_station_name               | num_trips_begun_here_in_2015 |
+  470  +-----------------------------------------------+------------------------------+
+  471  | San Francisco Caltrain (Townsend at 4th)      |                        24827 |
+  472  | San Francisco Caltrain 2 (330 Townsend)       |                        22274 |
+  473  | Harry Bridges Plaza (Ferry Building)          |                        17344 |
+  474  | Temporary Transbay Terminal (Howard at Beale) |                        14668 |
+  475  | Steuart at Market                             |                        14577 |
+  476  | Embarcadero at Sansome                        |                        14352 |
+  477  | 2nd at Townsend                               |                        13762 |
+  478  | Townsend at 7th                               |                        13695 |
+  479  | Market at Sansome                             |                        11301 |
+  480  | Market at 10th                                |                        11049 |
+  481  '
+  482  bq query --use_legacy_sql=false '
+  483              SELECT end_station_name, COUNT(end_station_name) as num_trips_ended_here_in_2015
+  484              FROM (SELECT *
+  485                    FROM bike_trip_data.better_trips
+  486                    WHERE (year = 2015))
+  487              GROUP BY start_station_name
+  488              ORDER BY num_trips_ended_here_in_2015 DESC
+  489              LIMIT 10; '
+  490  bq query --use_legacy_sql=false '
+  491              SELECT start_station_name, end_station_name, COUNT(trip_name) AS num_trips_in_2015,
+  492              FROM (SELECT *, CONCAT(start_station_name, end_station_name) as trip_name
+  493                    FROM bike_trip_data.better_trips
+  494                    WHERE (year = 2015))
+  495              GROUP BY trip_name, start_station_name, end_station_name
+  496              ORDER BY num_trips_in_2015 DESC
+  497              LIMIT 10; '
+  498  bq query --use_legacy_sql=false '
+  499              SELECT start_station_name, end_station_name, COUNT(trip_name) AS num_trips_in_2015,
+  500              FROM (SELECT *, CONCAT(start_station_name, end_station_name) as trip_name
+  501                    FROM bike_trip_data.better_trips)
+  502              GROUP BY trip_name, start_station_name, end_station_name
+  503              ORDER BY num_trips_in_2015 DESC
+  504              LIMIT 10; '
+  505  git add project-1-jacob-sycoff.ipynb 
+  506  git commit -m "almost done w p2"
+  507  git push origin assignment
+  508  bq query --use_legacy_sql=false '
+  509              SELECT start_station_name, end_station_name, COUNT(trip_name) AS num_trips,
+  510              FROM (SELECT *, CONCAT(start_station_name, end_station_name) as trip_name
+  511                    FROM bike_trip_data.better_trips)
+  512              WHERE start_station_name = end_station_name
+  513              GROUP BY trip_name, start_station_name, end_station_name
+  514              ORDER BY num_trips DESC
+  515              LIMIT 10; '
+  516  pip install google-cloud-bigquery-storage
+  517  git add project-1-jacob-sycoff.ipynb 
+  518  git commit -m "part 2 done. Recently began part 3"
+  519  git push origin assignment
+  520  cd w205
+  521  cd project-1-jacob-sycoff/
+  522  git add project-1-jacob-sycoff.ipynb 
+  523  git commit -m ' First Question of part 3 is done!!"
+  524  git add project-1-jacob-sycoff.ipynb 
+  525  git commit -m ' Finished first question of part 3'
+  526  git push origin assignment
+  527  ls
+  528  git add project-1-jacob-sycoff.ipynb 
+  529  git commit -m " coming up with offers for part 3 "
+  530  git push origin assignment
+  531  cd w203
+  532  ls
+  533  cd w205
+  534  ls
+  535  cd project-1-jacob-sycoff/
+  536  git add project-1-jacob-sycoff.ipynb 
+  537  git commit -m "almost done"
+  538  git push origin assignment
+  539  git add p
+  540  git add project-1-jacob-sycoff.ipynb 
+  541  git commit -m "project done"
+  542  git push origin assignment
+  543  git checkout master
+  544  git commit -m "project done"
+  545  git add project-1-jacob-sycoff.ipynb 
+  546  git commit -m "project done"
+  547  git push
+  548  docker-compose exec kafka kafka-topics --create --topic assessments --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  549  docker pull midsw205/base:latest
+  550  docker pull midsw205/base:0.1.8
+  551  docker pull midsw205/base:0.1.9
+  552  docker pull redis
+  553  docker pull confluentinc/cp-zookeeper:latest
+  554  docker pull confluentinc/cp-kafka:latest
+  555  docker pull midsw205/spark-python:0.0.5
+  556  docker pull midsw205/spark-python:0.0.6
+  557  docker pull midsw205/cdh-minimal:latest
+  558  docker pull midsw205/hadoop:0.0.2
+  559  docker pull midsw205/presto:0.0.1
+  560  docker-compose exec mids bash -c "cat /w205/kafka/github-example-large.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t foo && echo 'Produced 100 messages.'"
+  561  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  562  cd ~/w205/spark-with-kafka
+  563  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  564  docker-compose exec kafka kafka-topics --describe --topic foo --zookeeper zookeeper:32181
+  565  docker-compose exec kafka bash -c "seq 42 | kafka-console-producer --request-required-acks 1 --broker-list kafka:29092 --topic foo && echo 'Produced 42 messages.'"
+  566  docker-compose exec spark pyspark
+  567  docker-compose down
+  568  docker-compose -ps
+  569  cd ~/w205
+  570  curl -L -o github-example-large.json https://goo.gl/Y4MD58
+  571  cd ~/w205/spark-with-kafka
+  572  docker-compose up -d
+  573  docker-compose logs -f kafka
+  574  cp ~/w205/course-content/06-Transforming-Data/docker-compose.yml ~/w205/project-2-jacob-sycoff/
+  575  docker-compose up -d
+  576  cd /w205/project-2-jacob-sycoff
+  577  cd w205
+  578  ls
+  579  cd project-2-jacob-sycoff/
+  580  cp ~/w205/course-content/06-Transforming-Data/docker-compose.yml ~/w205/project-2-jacob-sycoff/
+  581  docker-compose up -d
+  582  docker-compose ps
+  583  docker ps -a
+  584  docker-compose logs -f kafka
+  585  Page down
+  586  docker-compose exec kafka kafka-topics --create --topic assessments --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  587  docker-compose exec kafka kafka-topics --describe --topic assessments --zookeeper zookeeper:32181
+  588  docker-compose exec mids bash -c "cat /w205/project-2-jacob-sycoff/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c"
+  589  docker-compose exec mids bash -c "cat /w205/project-2-jacob-sycoff/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t foo && echo 'Produced 100 messages.'"
+  590  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t assessments -o beginning -e"
+  591  docker-compose down
+  592  mkdir ~/w205/spark-with-kafka
+  593  cd ~/w205/spark-with-kafka
+  594  cp ~/w205/course-content/07-Sourcing-Data/docker-compose.yml .
+  595  docker-compose up -d
+  596  docker-compose logs -f kafka
+  597  cd ..
+  598  docker ps -a
+  599  cd spark-with-kafka
+  600  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  601  docker-compose exec kafka kafka-topics --describe --topic foo --zookeeper zookeeper:32181
+  602  docker-compose exec mids bash -c "cat /w205/github-example-large.json"
+  603  docker-compose exec mids bash -c "cat /w205/github-example-large.json | jq '.'"
+  604  docker-compose exec mids bash -c "cat /w205/github-example-large.json | jq '.[]' -c"
+  605  docker-compose exec mids bash -c "cat /w205/github-example-large.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t foo && echo 'Produced 100 messages.'"
+  606  docker-compose exec spark pyspark
+  607  docker-compose down
+  608  ls -l
+  609  docker-compose down
+  610  docker-compose ps
+  611  cd ..
+  612  cd project-2-jacob-sycoff/
+  613  docker-compose down
+  614  ls -la
+  615  cd w205
+  616  ls -la
+  617  git clone https://github.com/kevin-crook-ucb/ucb_w205_crook_supplement.git
+  618  ls -la
+  619  cd ucb_w205_crook_supplement/
+  620  ls -la
+  621  cd 2020_fall
+  622  ls
+  623  cd 2020_Fall/
+  624  ls
+  625  docker-compose ps
+  626  docker ps -a
+  627  cd ..
+  628  ls -lh
+  629  ls
+  630  cd w205
+  631  ls
+  632  cd project-2-jacob-sycoff/
+  633  git status
+  634  ls -l
+  635  cp ~/w205/course-content/07-Sourcing-Data/docker-compose.yml ~/w205/project-2-jacob-sycoff/
+  636  ls -lh
+  637  xdg-open docker-compose.yml
+  638  open docker-compose.yml
+  639  nano docker-compose.yml
+  640  docker-compose up -d
+  641  docker-compose ps
+  642  docker ps -a
+  643  docker-compose exec kafka kafka-topics --create --topic assessments --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  644  docker-compose exec kafka kafka-topics --describe --topic assessments --zookeeper zookeeper:32181
+  645  docker-compose exec mids bash -c "cat /w205/project-2-jacob-sycoff/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c"
+  646  docker-compose exec mids bash -c "cat /w205/project-2-jacob-sycoff/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t foo && echo 'Produced 100 messages.'
+  647  docker-compose exec mids bash -c "cat /w205/project-2-jacob-sycoff/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t foo && echo 'Produced 100 messages.'"
+  648  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t assessments -o beginning -e"
+  649  docker-compose down
+  650  docker-compose up -d
+  651  docker-compose exec spark bash
+  652  jupyter@tensorflow-2-3-20200827-182119:~/w205/project-2-jacob-sycoff$ 
+  653  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8888 --ip 0.0.0.0 --allow-root' pyspark
+  654  mkdir ~/w205/spark-with-kafka-and-hdfs
+  655  cd ~/w205/spark-with-kafka-and-hdfs
+  656  cp ~/w205/course-content/08-Querying-Data/docker-compose.yml .
+  657  cd ~/w205
+  658  curl -L -o players.json https://goo.gl/vsuCpZ
+  659  cd ~/w205/spark-with-kafka-and-hdfs
+  660  docker-compose up -d
+  661  docker-compose exec cloudera hadoop fs -ls /tmp/
+  662  docker-compose exec kafka kafka-topics --create --topic players --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  663  docker-compose exec mids bash -c "cat /w205/players.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t players"
+  664  docker-compose exec spark pyspark
+  665  docker-compose up -d
+  666  cd ~/w205/spark-with-kafka-and-hdfs
+  667  docker-compose up -d
+  668  docker-compose exec cloudera hadoop fs -ls /tmp/
+  669  docker-compose exec kafka kafka-topics --create --topic players --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  670  docker-compose exec mids bash -c "cat /w205/players.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t players"
+  671  docker-compose exec spark pyspark
+  672  cd ~/w205
+  673  curl -L -o players.json https://goo.gl/vsuCpZ
+  674  cd ~/w205/spark-with-kafka-and-hdfs
+  675  docker-compose up -d
+  676  docker-compose logs -f kafka
+  677  docker-compose exec cloudera hadoop fs -ls /tmp/
+  678  docker-compose up -d
+  679  cd ~/w205/spark-with-kafka-and-hdfs
+  680  docker-compose up -d
+  681  docker-compose exec cloudera hadoop fs -ls /tmp/
+  682  docker-compose exec kafka kafka-topics --create --topic players --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  683  docker-compose exec mids bash -c "cat /w205/players.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t players"
+  684  docker-compose exec spark pyspark
+  685  cd ..
+  686  ls -la
+  687  cd ~/w205/spark-with-kafka-and-hdfs
+  688  cp ~/w205/course-content/08-Querying-Data/docker-compose.yml .
+  689  cd ~/w205
+  690  curl -L -o players.json https://goo.gl/vsuCpZ
+  691  cd ~/w205/spark-with-kafka-and-hdfs
+  692  docker-compose up -d
+  693  docker-compose exec cloudera hadoop fs -ls /tmp/
+  694  docker-compose exec kafka kafka-topics --create --topic players --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  695  docker-compose exec mids bash -c "cat /w205/players.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t players"
+  696  docker-compose exec spark pyspark
+  697  docker-compose down
+  698  docker-compose ps -a
+  699  docker-compose ps
+  700  docker ps -a
+  701  docker-compose down
+  702  cd ..
+  703  docker-compose down
+  704  docker ps -a
+  705  cd project-2
+  706  cd project-2-jacob-sycoff/
+  707  ls -la
+  708  docker-compose down
+  709  docker-compose up -d
+  710  docker-compose logs -f kafka
+  711  ls
+  712  cd w205
+  713  ls
+  714  cd project-2-jacob-sycoff/
+  715  ls
+  716  cd ..
+  717  ls
+  718  cd w205
+  719  ls
+  720  cd project-2-jacob-sycoff/
+  721  git pull
+  722  git status
+  723  ls
+  724  nano docker-compose.yml 
+  725  git status
+  726  ls
+  727  cd ..
+  728  ls
+  729  cd course_
+  730  cd course-content/
+  731  ls
+  732  cd 07-Sourcing-Data/
+  733  ls
+  734  cd ..
+  735  cd 08-Querying-Data/
+  736  ls
+  737  cd .
+  738  cd ..
+  739  ls
+  740  cd ..
+  741  ls
+  742  cd project-2-jacob-sycoff/
+  743  ls
+  744  curl -L -o github-example-large.json https://goo.gl/Y4MD58
+  745  ls
+  746  cp ~/w205/course-content/08-Querying-Data/docker-compose.yml ~/w205/project-2-jacob-sycoff/
+  747  nano docker-compose.yml 
+  748  cat docker-compose.yml 
+  749  ls
+  750  docker-compose exec kafka kafka-topics --create --topic assessments --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  751  curl -L -o github-example-large.json https://goo.gl/Y4MD58
+  752  docker-compose up -d
+  753  docker-compose ps
+  754  docker ps -a
+  755  docker-compose exec kafka kafka-topics --create --topic assessments --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  756  docker-compose exec kafka kafka-topics --describe --topic assessments --zookeeper zookeeper:32181
+  757  docker-compose exec mids bash -c "cat /w205/project-2-jacob-sycoff/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t assessments && echo 'Produced 100 messages.'"
+  758  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t assessments -o beginning -e"
+  759  docker-compose exec spark bash
+  760  docker-compose exec spark pyspark
+  761  docker-compose down
+  762  docker-compose up -d
+  763  docker-compose exec spark bash
+  764  docker-compose exec spark pyspark
+  765  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8888 --ip 0.0.0.0 --allow-root' pyspark
+  766  history > <jupyter>-history.txthistory > <jupyter>-history.txt
+  767  history > <jupyter>-history.txt
+  768  docker-compose down
+  769  history > <jupyter>-history.txt
+  770  ls
+  771  cd w205
+  772  ls
+  773  cd project-2-jacob-sycoff/
+  774  ls
+  775  history > <jupyter>-history.txt
+  776  history > jupyter-history.txt
+  777  docker-compose down
+  778  docker-compose ps
+  779  focker ps -a
+  780  docker ps -a
+  781  cd w205
+  782  ls
+  783  cd project-2-jacob-sycoff/
+  784  ls
+  785  cd ..
+  786  telnet google.com 80
+  787  sudo apt-get install telnet
+  788  telnet google.com 80
+  789  cd temp
+  790  cd ~/temp
+  791  ls
+  792  mkdir temp
+  793  cd temp
+  794  ls
+  795  telnet google.com 80
+  796  openssl s_client -connect google.com:443
+  797  openssl s_client -connect api.wheretheiss.at:443
+  798  echo | openssl s_client -connect google.com:443 2>&1 | sed --quiet '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > google.com.1.crt
+  799  cat google.com.1.crt
+  800  openssl x509 -in google.com.1.crt -noout -text
+  801  echo | openssl s_client -connect google.com:443 -showcerts 2>&1 | sed --quiet '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > google.com.2.crt
+  802  cat google.com.2.crt
+  803  openssl x509 -in google.com.2.crt -noout -text
+  804  echo | openssl s_client -connect api.wheretheiss.at:443 -showcerts -servername api.wheretheiss.at 2>&1 | sed --quiet '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > api.wheretheiss.at.crt
+  805  cat api.wheretheiss.at.crt
+  806  openssl x509 -in api.wheretheiss.at.crt -noout -text
+  807  clear
+  808  cd ../w205
+  809  ls
+  810  cd flask-with-kafka/
+  811  docker-compose exec mids curl http://localhost:5000/
+  812  docker-compose exec mids curl http://localhost:5000/purchase_a_sword
+  813  docker-compose exec mids curl http://localhost:5000/
+  814  docker-compose exec mids curl http://localhost:5000/purchase_a_sword
+  815  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t events -o beginning -e"
+  816  docker-compose exec mids curl http://localhost:5000/
+  817  docker-compose exec mids curl http://localhost:5000/purchase_a_sword
+  818  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t events -o beginning -e"
+  819  ls
+  820  cd w205
+  821  ls
+  822  cd project-
+  823  cd project-2-jacob-sycoff/
+  824  docker-compose exec kafka kafka-topics --create --topic assessments --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  825  docker-compose exec kafka kafka-topics --describe --topic assessments --zookeeper zookeeper:32181
+  826  docker-compose exec mids bash -c "cat /w205/project-2-jacob-sycoff/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t assessments && echo 'Produced 100 messages.'"
+  827  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t assessments -o beginning -e"
+  828  cd w20
+  829  cd w205/
+  830  ls
+  831  cd project-2-jacob-sycoff/
+  832  ls
+  833  vim docker-compose.yml
+  834  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/ME6hjp`
+  835  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/ME6hjp
+  836  docker-compose up -d
+  837  docker-compose ps
+  838  docker-compose exec spark bash
+  839  docker-compose exec spark pyspark
+  840  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8888 --ip 0.0.0.0 --allow-root' pyspark
+  841  ls
+  842  cd w205
+  843  ls
+  844  cd project-2-jacob-sycoff/
+  845  ls
+  846  git status
+  847  git checkout assignment
+  848  git add jupyter-history.txt
+  849  git add Jacob_Sycoff_w205_project_2.ipynb 
+  850  git add docker-compose.yml
+  851  git commit -m "adding all files"
+  852  docker-compose exec kafka kafka-topics --describe --topic assessments --zookeeper zookeeper:32181
+  853  git add Jacob_Sycoff_w205_project_2.ipynb 
+  854  git commit -m "startup process explained"
+  855  git add Jacob_Sycoff_w205_project_2.ipynb 
+  856  git commit -m "set up analysis section"
+  857  cd w205
+  858  ls
+  859  cd project-2-jacob-sycoff/
+  860  ls
+  861  docker-compose ps
+  862  docker ps -a
+  863  git add Jacob_Sycoff_w205_project_2.ipynb 
+  864  git commit -m "sample question 1 and 2 answered"
+  865  docker-compose exec mids curl http://localhost:5000/
+  866  cd ~/w205/flask-with-kafka-and-spark/
+  867  ls
+  868  nano docker-compose.yml
+  869  docker-compose exec mids curl http://localhost:5000/
+  870  docker-compose exec mids curl http://localhost:5000/purchase_a_sword
+  871  docker-compose exec mids kafkacat -C -b kafka:29092 -t events -o beginning -e
+  872  docker-compose exec mids curl http://localhost:5000/
+  873  docker-compose exec mids curl http://localhost:5000/purchase_a_sword
+  874  docker-compose exec mids curl http://localhost:5000/purchase_a_frog
+  875  docker-compose exec mids kafkacat -C -b kafka:29092 -t events -o beginning -e
+  876  docker-compose exec spark pyspark
+  877  docker-compose down
+  878  ls
+  879  docker ps
+  880  docker ps -a
+  881  ls
+  882  docker ps -a
+  883  docker-compose ps
+  884  cd w205
+  885  cs project-2-jacob-sycoff/
+  886  docker-compose ps
+  887  cd project-2-jacob-sycoff/
+  888  docker-compose ps
+  889  docker ps -a
+  890  git add Jacob_Sycoff_w205_project_2.ipynb 
+  891  git commit -m "sample questions done"
+  892  ls
+  893  git add Jacob_Sycoff_w205_project_2.ipynb 
+  894  git commit -m "working on my question 1"
+  895  git add Jacob_Sycoff_w205_project_2.ipynb 
+  896  git commit -m "my questions 1 and 2 done"
+  897  docker-compose down
+  898  mkdir ~/w205/python-requests/
+  899  cd ~/w205/python-requests/
+  900  curl https://raw.githubusercontent.com/kevin-crook-ucb/ucb_w205_crook_supplement/master/2020_Fall/synch_10_python_requests.ipynb --output python_requests.ipynb
+  901  mkdir ~/w205/flask-with-kafka-and-spark/
+  902  cd ~/w205/flask-with-kafka-and-spark/
+  903  cp ~/w205/course-content/10-Transforming-Streaming-Data/docker-compose.yml .
+  904  docker-compose up -d
+  905  docker-compose exec kafka kafka-topics --create --topic events --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  906  cp ~/w205/course-content/10-Transforming-Streaming-Data/game_api_with_json_events.py .
+  907  docker-compose exec mids env FLASK_APP=/w205/flask-with-kafka-and-spark/game_api_with_json_events.py flask run --host 0.0.0.0
+  908  cd ~/w205/flask-with-kafka-and-spark/
+  909  cp ~/w205/course-content/10-Transforming-Streaming-Data/docker-compose.yml .
+  910  docker-compose down
+  911  docker-compose up -d
+  912  docker-compose exec mids env FLASK_APP=/w205/flask-with-kafka-and-spark/game_api_with_extended_json_events.py flask run --host 0.0.0.0
+  913  docker-compose exec mids env FLASK_APP=/w205/flask-with-kafka-and-spark/game_api_with_json_events.py flask run --host 0.0.0.0
+  914  cp ~/w205/course-content/10-Transforming-Streaming-Data/game_api_with_extended_json_events.py .
+  915  docker-compose exec mids env FLASK_APP=/w205/flask-with-kafka-and-spark/game_api_with_extended_json_events.py flask run --host 0.0.0.0
+  916  cd w205
+  917  cd project-2-jacob-sycoff/
+  918  git add Jacob_Sycoff_w205_project_2.ipynb 
+  919  git commit -m "almost done"
+  920  history > jupyter-history.txt
