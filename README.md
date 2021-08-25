@@ -1,4 +1,3 @@
-# ***Note: This repo is a work in progress and does not currently contain most projects. It is in the process of being updated.***
 # **Jacob Sycoff**
 # **Data Science Portfolio** 
 
