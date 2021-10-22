@@ -10,7 +10,7 @@
 
    &emsp;&emsp; ***Master of Information and Data Science <br>
    &emsp;&emsp; Univeristy of California, Berkeley*** <br>
-   &emsp;&emsp; *Expected Graduation:* Summer 2021 <br>
+   &emsp;&emsp; *Graduation Date:* Summer 2021 <br>
 
 <br/>
 
